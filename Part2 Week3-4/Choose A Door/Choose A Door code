@@ -1,0 +1,23 @@
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int door = Convert.ToInt32(textBox1.Text);
+
+            switch (door)
+            {
+                case 1:
+                    label4.Text = "💰 You found treasure!";
+                    break;
+
+                case 2:
+                    label4.Text = "👾 A monster appeared!";
+                    break;
+
+                case 3:
+                    label4.Text = "🧪 You found a magic potion!";
+                    break;
+
+                default:
+                    label4.Text = "Choose Door 1, 2, or 3.";
+                    break;
+            }
+        }
