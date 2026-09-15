@@ -1,0 +1,12 @@
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int coins = 0;
+
+            do
+            {
+                coins += 10;
+            }
+            while(coins < 100);
+
+            label1.Text = "Coins: " + coins;
+        }
