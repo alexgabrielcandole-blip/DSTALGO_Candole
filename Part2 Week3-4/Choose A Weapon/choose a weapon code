@@ -1,0 +1,24 @@
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string weapon = comboBox1.Text;
+
+            switch (weapon)
+            {
+                case "Sword":
+                    label4.Text = "⚔️ You attacked with a Sword!";
+                    break;
+
+                case "Bow":
+                    label4.Text = "🏹 You attacked with a Bow!";
+                    break;
+
+                case "Magic":
+                    label4.Text = "✨ You cast a Magic Spell!";
+                    break;
+
+                default:
+                    label4.Text = "Select a weapon first!";
+                    break;
+            }
+
+        }
