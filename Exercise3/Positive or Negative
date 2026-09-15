@@ -1,0 +1,17 @@
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int num = Convert.ToInt32(textBox1.Text);
+
+            if (num > 0)
+            {
+                label2.Text = num + " is an Positive Number";
+            }
+            else if (num < 0) 
+            {
+                label2.Text = num + " is an Negative Number";
+            }
+            else
+            {
+                label2.Text = num + " the number is Zero";
+            }
+        }
