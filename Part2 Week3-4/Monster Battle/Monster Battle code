@@ -1,17 +1,15 @@
         private void button1_Click(object sender, EventArgs e)
         {
-            int num = Convert.ToInt32(textBox1.Text);
+            int hp = 50;
+            string result = "";
 
-            if (num > 0)
+            do
             {
-                label2.Text = num + " is an Positive Number";
+                hp -= 10;
+                result += "Monster HP: " + hp + "\n";
             }
-            else if (num < 0) 
-            {
-                label2.Text = num + " is an Negative Number";
-            }
-            else
-            {
-                label2.Text = num + " the number is Zero";
-            }
+            while (hp > 0);
+            result += "\nMonster Defeated!";
+
+            label1.Text = result;
         }
