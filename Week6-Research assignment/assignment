@@ -1,0 +1,21 @@
+Data structures and algorithms: Data structures manage how data is stored and accessed, while algorithms focus on processing that data. 
+
+One-dimensional array: It is a finite list of same-type elements, referenced by consecutive index numbers and stored in successive contiguous memory locations, and the first element sits at index 0 and the last at n-1 for an array of size n. 
+
+Big O notation: It expresses an upper bound on an algorithm's time or space growth as input size increases, and is mainly applied to the worst case. To find the growth rate, you ignore constants and lower-order terms. 
+
+Linear search: It starts at the first position and traverses the array in order, so its worst case (target absent) is O(n). It works on both sorted and unsorted data. 
+
+Binary search: It halves the search space at every step, giving O(log n) time on sorted data. For a sorted array of 1,000,000 elements, that is about 20 steps, versus up to 1,000,000 for linear search. Its sorted-data requirement can be a drawback if you would not otherwise need to sort. 
+Linear Search vs Binary Search 
+
+References
+GeeksforGeeks. DSA Tutorial – Learn Data Structures and Algorithms. https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/
+Punjabi University. One Dimensional Arrays (e-learning notes). https://punjabiuniversity.ac.in/Pages/Images/elearn/2.pdf
+GeeksforGeeks. One Dimensional Arrays in C. https://www.geeksforgeeks.org/c/one-dimensional-arrays-in-c/
+GeeksforGeeks. Big O Notation. https://www.geeksforgeeks.org/dsa/analysis-algorithms-big-o-analysis/
+OpenDSA, Virginia Tech. Asymptotic Analysis and Upper Bounds. https://opendsa-server.cs.vt.edu/ODSA/Books/CS2/html/AnalAsymptotic.html
+GeeksforGeeks. Linear Search vs Binary Search. https://www.geeksforgeeks.org/dsa/linear-search-vs-binary-search/
+GeeksforGeeks. Which is faster between binary search and linear search? https://www.geeksforgeeks.org/dsa/which-is-faster-between-binary-search-and-linear-search/
+Devinterview.io. Searching Algorithms. https://github.com/Devinterview-io/searching-interview-questions
+go-binary-search (Go package documentation). https://pkg.go.dev/github.com/eduardoraider/go-binary-search
